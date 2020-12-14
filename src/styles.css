@@ -75,13 +75,13 @@ ul {
 .nav-link:link {
   color: #032f39;
 }
-.menu:visited {
+.nav-item:visited {
   color: #032f39;
 }
-.menu:hover {
+.nav-item:hover {
   color: #032f39;
 }
-.menu:active {
+.nav-item:active {
   color: #032f39;
 }
 

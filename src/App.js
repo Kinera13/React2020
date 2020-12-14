@@ -1,11 +1,10 @@
-import logo from './favicon.ico';
 import './App.css';
-import React from "react";
+import React, { useState } from "react";
 import {Main} from "./main";
 import {Navbar} from "./navbar.js";
-import {Test} from  './test';
 
 function App() {
+    const [tech] = useState("React");
     return (
         <div className="App">
             <header className="App-header">
@@ -24,11 +23,9 @@ function App() {
             </header>
         </div>,
 
-    <div className="App">
-        <Navbar />
-        <Main />
-        <Test />
-    </div>
+            <div className="App">
+                <Navbar />
+            </div>
     );
 }
 
